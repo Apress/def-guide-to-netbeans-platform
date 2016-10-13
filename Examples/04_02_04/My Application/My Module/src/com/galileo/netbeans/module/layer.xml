@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Edit">
+            <file name="com-galileo-netbeans-module-MySensitiveAction.instance"/>
+        </folder>
+        <folder name="Window">
+            <file name="com-galileo-netbeans-module-MyAction.instance"/>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Edit">
+            <file name="com-galileo-netbeans-module-MySensitiveAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/com-galileo-netbeans-module-MySensitiveAction.instance"/>
+                <attr name="position" intvalue="10"/>
+            </file>
+            <file name="javax-swing-JSeparator.instance">
+                <attr name="position" intvalue="20"/>
+            </file>
+        </folder>
+        <folder name="View_hidden"/>
+        <folder name="Window">
+            <file name="MyAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-galileo-netbeans-module-MyAction.instance"/>
+                <attr name="position" intvalue="10"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="Edit">
+            <file name="com-galileo-netbeans-module-MySensitiveAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/com-galileo-netbeans-module-MySensitiveAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="MyTopComponent.settings" url="MyTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="MyTopComponent.wstcref" url="MyTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

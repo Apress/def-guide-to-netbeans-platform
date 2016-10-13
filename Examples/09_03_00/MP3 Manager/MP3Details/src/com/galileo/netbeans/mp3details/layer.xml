@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-galileo-netbeans-mp3details-Mp3DetailsViewAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.galileo.netbeans.mp3details.Bundle"/>
+                <attr name="component" methodvalue="com.galileo.netbeans.mp3details.Mp3DetailsView.findInstance"/>
+                <attr name="displayName" bundlevalue="com.galileo.netbeans.mp3details.Bundle#CTL_Mp3DetailsViewAction"/>
+                <attr name="iconBase" stringvalue="com/galileo/netbeans/mp3details/details.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="Mp3DetailsViewAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-galileo-netbeans-mp3details-Mp3DetailsViewAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="Mp3DetailsView.settings" url="Mp3DetailsViewSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="properties">
+                <file name="Mp3DetailsView.wstcref" url="Mp3DetailsViewWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-galileo-netbeans-mp3searcher-Mp3SearchListAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.galileo.netbeans.mp3searcher.Bundle"/>
+                <attr name="component" methodvalue="com.galileo.netbeans.mp3searcher.Mp3SearchList.findInstance"/>
+                <attr name="displayName" bundlevalue="com.galileo.netbeans.mp3searcher.Bundle#CTL_Mp3SearchListAction"/>
+                <attr name="iconBase" stringvalue="com/galileo/netbeans/mp3searcher/search.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="Mp3SearchListAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-galileo-netbeans-mp3searcher-Mp3SearchListAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="Mp3SearchList.settings" url="Mp3SearchListSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="Mp3SearchList.wstcref" url="Mp3SearchListWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

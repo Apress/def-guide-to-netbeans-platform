@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+   <folder name="Actions">
+      <folder name="Player">
+         <file name="com-hboeck-mp3manager-player-PlayAction.instance"/>
+      </folder>
+      <folder name="Window">
+        <file name="com-hboeck-mp3manager-player-gui-Mp3PlayerAction.instance">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="com.hboeck.mp3manager.player.gui.Bundle"/>
+            <attr name="component" methodvalue="com.hboeck.mp3manager.player.gui.Mp3PlayerTopComponent.findInstance"/>
+            <attr name="displayName" bundlevalue="com.hboeck.mp3manager.player.gui.Bundle#CTL_Mp3PlayerAction"/>
+            <attr name="iconBase" bundlevalue="com.hboeck.mp3manager.player.gui.Bundle#CTL_Mp3PlayerIcon"/>
+            <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+        </file>
+      </folder>
+   </folder>
+   <folder name="Loaders">
+      <folder name="audio">
+         <folder name="mpeg">
+            <folder name="Actions">
+               <file name="com-hboeck-mp3manager-player-PlayAction.shadow">
+                  <attr name="originalFile" stringvalue="Actions/Player/com-hboeck-mp3manager-player-PlayAction.instance"/>
+               </file>
+               <file name="com-hboeck-mp3manager-player-separatorAfter.instance">
+                  <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+               </file>
+            </folder>
+         </folder>
+      </folder>
+   </folder>
+   <folder name="Menu">
+      <folder name="File">
+         <file name="com-hboeck-mp3manager-player-PlayAction.shadow">
+            <attr name="originalFile" stringvalue="Actions/Player/com-hboeck-mp3manager-player-PlayAction.instance"/>
+         </file>
+      </folder>
+      <folder name="Window">
+         <file name="Mp3PlayerAction.shadow">
+            <attr name="originalFile" stringvalue="Actions/Window/com-hboeck-mp3manager-player-gui-Mp3PlayerAction.instance"/>
+            <attr name="position" intvalue="50"/>
+         </file>
+      </folder>
+   </folder>
+   <folder name="Windows2">
+      <folder name="Components">
+         <file name="Mp3PlayerTopComponent.settings" url="Mp3PlayerTopComponentSettings.xml"/>
+      </folder>
+      <folder name="Modes">
+         <folder name="explorer">
+            <file name="Mp3PlayerTopComponent.wstcref" url="Mp3PlayerTopComponentWstcref.xml"/>
+         </folder>
+      </folder>
+   </folder>
+</filesystem>

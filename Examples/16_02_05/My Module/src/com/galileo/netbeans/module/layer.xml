@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Edit">
+            <file name="com-galileo-netbeans-module-GetResourceAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.galileo.netbeans.module.Bundle"/>
+                <attr name="delegate" newvalue="com.galileo.netbeans.module.GetResourceAction"/>
+                <attr name="displayName" bundlevalue="com.galileo.netbeans.module.Bundle#CTL_GetResourceAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" stringvalue="false"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Edit">
+            <file name="com-galileo-netbeans-module-GetResourceAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/com-galileo-netbeans-module-GetResourceAction.instance"/>
+                <attr name="position" intvalue="10"/>
+            </file>
+            <file name="com-galileo-netbeans-module-separatorAfter.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="20"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

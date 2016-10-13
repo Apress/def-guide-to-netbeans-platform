@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Tools">
+            <file name="com-galileo-netbeans-module-PlaylistWizardAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.galileo.netbeans.module.Bundle"/>
+                <attr name="delegate" newvalue="com.galileo.netbeans.module.PlaylistWizardAction"/>
+                <attr name="displayName" bundlevalue="com.galileo.netbeans.module.Bundle#CTL_PlaylistWizardAction"/>
+                <attr name="iconBase" stringvalue="com/galileo/netbeans/module/wizard.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" stringvalue="false"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Tools">
+            <file name="com-galileo-netbeans-module-PlaylistWizardAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Tools/com-galileo-netbeans-module-PlaylistWizardAction.instance"/>
+                <attr name="position" intvalue="10"/>
+            </file>
+            <file name="com-galileo-netbeans-module-separatorAfter.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="20"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

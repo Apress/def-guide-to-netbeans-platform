@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-galileo-netbeans-module-graph-GraphAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.galileo.netbeans.module.graph.Bundle"/>
+                <attr name="component" methodvalue="com.galileo.netbeans.module.graph.GraphTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="com.galileo.netbeans.module.graph.Bundle#CTL_GraphAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+            <file name="com-galileo-netbeans-module-scene-OverviewAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.galileo.netbeans.module.scene.Bundle"/>
+                <attr name="component" methodvalue="com.galileo.netbeans.module.graph.SceneTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="com.galileo.netbeans.module.scene.Bundle#CTL_SceneAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+            <file name="com-galileo-netbeans-module-scene-SceneAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.galileo.netbeans.module.scene.Bundle"/>
+                <attr name="component" methodvalue="com.galileo.netbeans.module.scene.SceneTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="com.galileo.netbeans.module.scene.Bundle#CTL_SceneAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+            <file name="com-galileo-netbeans-module-vmd-VMDAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.galileo.netbeans.module.vmd.Bundle"/>
+                <attr name="component" methodvalue="com.galileo.netbeans.module.vmd.VMDTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="com.galileo.netbeans.module.vmd.Bundle#CTL_VMDAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="GraphAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-galileo-netbeans-module-graph-GraphAction.instance"/>
+            </file>
+            <file name="OverviewAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-galileo-netbeans-module-scene-OverviewAction.instance"/>
+            </file>
+            <file name="SceneAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-galileo-netbeans-module-scene-SceneAction.instance"/>
+            </file>
+            <file name="VMDAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-galileo-netbeans-module-vmd-VMDAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="GraphTopComponent.settings" url="graph/GraphTopComponentSettings.xml"/>
+            <file name="OverviewTopComponent.settings" url="scene/OverviewTopComponentSettings.xml"/>
+            <file name="SceneTopComponent.settings" url="scene/SceneTopComponentSettings.xml"/>
+            <file name="VMDTopComponent.settings" url="vmd/VMDTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="GraphTopComponent.wstcref" url="graph/GraphTopComponentWstcref.xml"/>
+                <file name="SceneTopComponent.wstcref" url="scene/SceneTopComponentWstcref.xml"/>
+                <file name="VMDTopComponent.wstcref" url="vmd/VMDTopComponentWstcref.xml"/>
+            </folder>
+            <folder name="explorer">
+                <file name="OverviewTopComponent.wstcref" url="scene/OverviewTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

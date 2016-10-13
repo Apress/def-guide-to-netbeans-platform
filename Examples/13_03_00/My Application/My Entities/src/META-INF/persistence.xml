@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="1.0">
+
+    <persistence-unit name="HibernateJPA" transaction-type="RESOURCE_LOCAL">
+        <class>com.galileo.netbeans.myentities.Genre</class>
+        <class>com.galileo.netbeans.myentities.Album</class>
+
+        <properties>
+           <!-- Database connection settings -->
+           <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.EmbeddedDriver</property>
+           <property name="hibernate.connection.url">jdbc:derby:hibernatejpa-db;create=true</property>
+   <!--        <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.ClientDriver</property>
+           <property name="hibernate.connection.url">jdbc:derby://localhost:1527/hibernate-db;create=true</property>-->
+           <property name="hibernate.connection.username">user</property>
+           <property name="hibernate.connection.password">password</property>
+
+           <!-- JDBC connection pool (use the built-in) -->
+           <property name="hibernate.connection.pool_size">1</property>
+
+           <!-- SQL dialect -->
+           <property name="hibernate.dialect">org.hibernate.dialect.DerbyDialect</property>
+
+           <!-- Echo all executed SQL to stdout -->
+           <property name="hibernate.show_sql">true</property>
+
+           <!-- Create or update the database schema on startup -->
+           <property name="hibernate.hbm2ddl.auto">update</property>
+        </properties>
+    </persistence-unit>
+</persistence>

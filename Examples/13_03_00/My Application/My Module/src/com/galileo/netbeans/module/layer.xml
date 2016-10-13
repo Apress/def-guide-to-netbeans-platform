@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-galileo-netbeans-module-AlbumsAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.galileo.netbeans.module.Bundle"/>
+                <attr name="component" methodvalue="com.galileo.netbeans.module.AlbumsTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="com.galileo.netbeans.module.Bundle#CTL_AlbumsAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="AlbumsAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-galileo-netbeans-module-AlbumsAction.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="AlbumsTopComponent.settings" url="AlbumsTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="AlbumsTopComponent.wstcref" url="AlbumsTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
